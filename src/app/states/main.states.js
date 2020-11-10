@@ -13,6 +13,7 @@ function register(voxaApp) {
     return {
       flow: "yield",
       reply: "Help",
+      to: 'entry',
     };
   });
 
@@ -20,6 +21,7 @@ function register(voxaApp) {
     return {
       flow: "terminate",
       reply: "Fallback",
+      to: 'entry',
     };
   });
 
